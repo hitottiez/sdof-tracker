@@ -6,28 +6,32 @@
 
 ## Setup
 ### Option1: Use the pre-computed detection result (Easy)
+Set the detection result (![MOT format](https://motchallenge.net/)) to arbitary directory.
 
 ### Option2: Use detectron2 for detection
-https://github.com/facebookresearch/detectron2
+Refer ![Detectron2](https://github.com/facebookresearch/detectron2).
 
 ### Option3: Use FairMOT for detection
-https://github.com/ifzhang/FairMOT
+Refer ![FairMOT](https://github.com/ifzhang/FairMOT).
 
 ## Dataset
-- MOT16
-- MOT20
+- ![MOT16](https://motchallenge.net/data/MOT16/)
+- ![MOT20](https://motchallenge.net/data/MOT20/)
 
 ## Run
-$ cd src
+```
+cd src
+```
+Change options in opts.pys.
 
-Change options in opts.pys
-
-Run
-$ python tracking.py
+Run tracking.
+```
+python tracking.py
+```
 
 ## TODO
 
 ## Reference
-https://github.com/nwojke/deep_sort
-https://github.com/ZQPei/deep_sort_pytorch
+- https://github.com/nwojke/deep_sort
+- https://github.com/ZQPei/deep_sort_pytorch
 
